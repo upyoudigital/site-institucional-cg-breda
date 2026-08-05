@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "CG Breda | Contabilidade estratégica",
   description:
-    "Contabilidade estratégica para empresas em Campinas, Indaiatuba e São Paulo.",
+    "Contabilidade estratégica para empresas em Campinas, Indaiatuba e em todo o Brasil.",
 };
 
 export default function RootLayout({

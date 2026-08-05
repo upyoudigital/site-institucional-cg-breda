@@ -72,7 +72,7 @@ const questions = [
   {
     question: "A CG Breda atende presencialmente?",
     answer:
-      "Sim. O escritório possui base em Campinas e Indaiatuba e também atende empresas em outras cidades do estado de São Paulo.",
+      "Sim. O escritório possui base em Campinas e Indaiatuba e atende empresas em todo o território nacional.",
   },
   {
     question: "O cliente acompanha indicadores financeiros?",
@@ -126,7 +126,7 @@ export default function Home() {
         </header>
 
         <div className="hero__content">
-          <p className="eyebrow">Campinas / Indaiatuba / São Paulo</p>
+          <p className="eyebrow">Campinas / Indaiatuba / Brasil</p>
           <h1>
             <span className="headline-line headline-line--desktop">Números tratados</span>
             <span className="headline-line headline-line--desktop">com critério.</span>
@@ -146,19 +146,19 @@ export default function Home() {
           <div className="hero__metrics" aria-label="Indicadores principais">
             <span>
               <strong>
-                <CountUpNumber end={18} suffix="+" />
+                <CountUpNumber end={21} suffix="+" />
               </strong>
               anos de atuação
             </span>
             <span>
               <strong>
-                <CountUpNumber end={78} />
+                BR
               </strong>
-              anos de tradição
+              atendimento nacional
             </span>
             <span>
-              <strong>SP</strong>
-              atendimento estadual
+              <strong>Online</strong>
+              suporte consultivo
             </span>
           </div>
           <div className="hero__actions" aria-label="Ações principais">
@@ -174,14 +174,14 @@ export default function Home() {
         <aside className="ledger-panel" aria-label="Resumo de autoridade">
           <div className="ledger-panel__top">
             <span>CG BREDA</span>
-            <span>Tradição e gestão</span>
+            <span>Atuação consultiva</span>
           </div>
           <div className="ledger-panel__number">
-            <CountUpNumber end={78} />
+            <CountUpNumber end={21} suffix="+" />
           </div>
           <p>
-            anos de tradição familiar na área contábil, com atuação atual liderada por
-            experiência de mercado.
+            anos de atuação contábil com acompanhamento próximo, responsabilidade
+            técnica e compromisso com a rotina empresarial.
           </p>
           <div className="ledger-panel__grid" aria-label="Resumo ilustrativo de entregas">
             <span>Regime tributário</span>
@@ -216,9 +216,9 @@ export default function Home() {
         <div className="proof-strip" aria-label="Indicadores de confiança">
           <div>
             <strong>
-              <CountUpNumber end={18} /> anos
+              <CountUpNumber end={21} /> anos
             </strong>
-            <span>de experiência da sociedade na área</span>
+            <span>de atuação contábil consultiva</span>
           </div>
           <div>
             <strong>
@@ -227,8 +227,8 @@ export default function Home() {
             <span>Campinas e Indaiatuba</span>
           </div>
           <div>
-            <strong>SP</strong>
-            <span>atendimento em todo o estado</span>
+            <strong>BR</strong>
+            <span>atendimento em todo o território nacional</span>
           </div>
         </div>
         <div className="section__actions">
